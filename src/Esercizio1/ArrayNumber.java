@@ -19,7 +19,7 @@ public class ArrayNumber {
                 System.out.print("Inserisci la posizione da modificare (0-4): ");
                 pos = input.nextInt();
                 if (pos < 0 || pos >= arr.length) {
-                    throw new ArrayIndexOutOfBoundsException("Errore: Numero non valido");
+                    throw new Exception("Errore: Numero non valido");
                 }
                 System.out.print("Inserisci il nuovo valore (0-10): ");
                 value = input.nextInt();
